@@ -1,0 +1,9 @@
+[0m[[0minfo[0m] [0m+ Heap.minOfOneElement: OK, passed 100 tests.[0m
+[0m[[0minfo[0m] [0m+ Heap.minOfTwoElements: OK, passed 100 tests.[0m
+[0m[[0minfo[0m] [0m+ Heap.mintwiceSame: OK, passed 100 tests.[0m
+[0m[[0minfo[0m] [0m+ Heap.emptyAfterRemoveOnlyOne: OK, passed 100 tests.[0m
+[0m[[0minfo[0m] [0m+ Heap.gen1: OK, passed 100 tests.[0m
+[0m[[0minfo[0m] [0m+ Heap.deletedSequence: OK, passed 100 tests.[0m
+[0m[[0minfo[0m] [0m+ Heap.meldHeapWithEmpty: OK, passed 100 tests.[0m
+[0m[[0minfo[0m] [0m+ Heap.meldingHeapsMinimum: OK, passed 100 tests.[0m
+[0m[[0minfo[0m] [0m+ Heap.heapAfterDeleteMin: OK, passed 100 tests.[0m

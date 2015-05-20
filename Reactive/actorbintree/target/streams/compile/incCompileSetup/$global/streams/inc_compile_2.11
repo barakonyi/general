@@ -1,0 +1,340 @@
+format version: 5
+output mode:
+1 items
+0 -> single
+output directories:
+1 items
+output dir -> C:\Matyi\Reactive\actorbintree\target\scala-2.11\classes
+compile options:
+2 items
+0 -> -deprecation
+1 -> -feature
+javac options:
+0 items
+compiler version:
+1 items
+0 -> 2.11.5
+compile order:
+1 items
+0 -> Mixed
+name hashing:
+1 items
+0 -> true
+products:
+31 items
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> C:\Matyi\Reactive\actorbintree\target\scala-2.11\classes\actorbintree\BinaryTreeNode$$anonfun$2.class
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> C:\Matyi\Reactive\actorbintree\target\scala-2.11\classes\actorbintree\BinaryTreeNode$$anonfun$copying$1.class
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> C:\Matyi\Reactive\actorbintree\target\scala-2.11\classes\actorbintree\BinaryTreeNode$.class
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> C:\Matyi\Reactive\actorbintree\target\scala-2.11\classes\actorbintree\BinaryTreeNode$CopyFinished$.class
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> C:\Matyi\Reactive\actorbintree\target\scala-2.11\classes\actorbintree\BinaryTreeNode$CopyTo$.class
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> C:\Matyi\Reactive\actorbintree\target\scala-2.11\classes\actorbintree\BinaryTreeNode$CopyTo.class
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> C:\Matyi\Reactive\actorbintree\target\scala-2.11\classes\actorbintree\BinaryTreeNode$Left$.class
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> C:\Matyi\Reactive\actorbintree\target\scala-2.11\classes\actorbintree\BinaryTreeNode$Position.class
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> C:\Matyi\Reactive\actorbintree\target\scala-2.11\classes\actorbintree\BinaryTreeNode$Right$.class
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> C:\Matyi\Reactive\actorbintree\target\scala-2.11\classes\actorbintree\BinaryTreeNode.class
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> C:\Matyi\Reactive\actorbintree\target\scala-2.11\classes\actorbintree\BinaryTreeSet$$anonfun$1.class
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> C:\Matyi\Reactive\actorbintree\target\scala-2.11\classes\actorbintree\BinaryTreeSet$$anonfun$garbageCollecting$1.class
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> C:\Matyi\Reactive\actorbintree\target\scala-2.11\classes\actorbintree\BinaryTreeSet$$anonfun$running$1.class
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> C:\Matyi\Reactive\actorbintree\target\scala-2.11\classes\actorbintree\BinaryTreeSet$.class
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> C:\Matyi\Reactive\actorbintree\target\scala-2.11\classes\actorbintree\BinaryTreeSet$Contains$.class
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> C:\Matyi\Reactive\actorbintree\target\scala-2.11\classes\actorbintree\BinaryTreeSet$Contains.class
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> C:\Matyi\Reactive\actorbintree\target\scala-2.11\classes\actorbintree\BinaryTreeSet$ContainsResult$.class
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> C:\Matyi\Reactive\actorbintree\target\scala-2.11\classes\actorbintree\BinaryTreeSet$ContainsResult.class
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> C:\Matyi\Reactive\actorbintree\target\scala-2.11\classes\actorbintree\BinaryTreeSet$GC$.class
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> C:\Matyi\Reactive\actorbintree\target\scala-2.11\classes\actorbintree\BinaryTreeSet$Insert$.class
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> C:\Matyi\Reactive\actorbintree\target\scala-2.11\classes\actorbintree\BinaryTreeSet$Insert.class
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> C:\Matyi\Reactive\actorbintree\target\scala-2.11\classes\actorbintree\BinaryTreeSet$Operation.class
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> C:\Matyi\Reactive\actorbintree\target\scala-2.11\classes\actorbintree\BinaryTreeSet$OperationFinished$.class
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> C:\Matyi\Reactive\actorbintree\target\scala-2.11\classes\actorbintree\BinaryTreeSet$OperationFinished.class
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> C:\Matyi\Reactive\actorbintree\target\scala-2.11\classes\actorbintree\BinaryTreeSet$OperationReply.class
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> C:\Matyi\Reactive\actorbintree\target\scala-2.11\classes\actorbintree\BinaryTreeSet$Remove$.class
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> C:\Matyi\Reactive\actorbintree\target\scala-2.11\classes\actorbintree\BinaryTreeSet$Remove.class
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> C:\Matyi\Reactive\actorbintree\target\scala-2.11\classes\actorbintree\BinaryTreeSet.class
+C:\Matyi\Reactive\actorbintree\src\main\scala\common\package.scala -> C:\Matyi\Reactive\actorbintree\target\scala-2.11\classes\common\package$$anonfun$subFile$1.class
+C:\Matyi\Reactive\actorbintree\src\main\scala\common\package.scala -> C:\Matyi\Reactive\actorbintree\target\scala-2.11\classes\common\package$.class
+C:\Matyi\Reactive\actorbintree\src\main\scala\common\package.scala -> C:\Matyi\Reactive\actorbintree\target\scala-2.11\classes\common\package.class
+binary dependencies:
+5 items
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> C:\Program Files\Java\jre1.8.0_45\lib\rt.jar
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> C:\Users\Matyas_Barakonyi1@epam.com\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.3.9.jar
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> C:\Users\Matyas_Barakonyi1@epam.com\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.5.jar
+C:\Matyi\Reactive\actorbintree\src\main\scala\common\package.scala -> C:\Program Files\Java\jre1.8.0_45\lib\rt.jar
+C:\Matyi\Reactive\actorbintree\src\main\scala\common\package.scala -> C:\Users\Matyas_Barakonyi1@epam.com\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.5.jar
+direct source dependencies:
+0 items
+direct external dependencies:
+0 items
+public inherited source dependencies:
+0 items
+public inherited external dependencies:
+0 items
+member reference internal dependencies:
+0 items
+member reference external dependencies:
+0 items
+inheritance internal dependencies:
+0 items
+inheritance external dependencies:
+0 items
+class names:
+31 items
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> actorbintree.BinaryTreeNode
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> actorbintree.BinaryTreeNode$
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> actorbintree.BinaryTreeNode$$anonfun$2
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> actorbintree.BinaryTreeNode$$anonfun$copying$1
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> actorbintree.BinaryTreeNode$CopyFinished$
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> actorbintree.BinaryTreeNode$CopyTo
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> actorbintree.BinaryTreeNode$CopyTo$
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> actorbintree.BinaryTreeNode$Left$
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> actorbintree.BinaryTreeNode$Position
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> actorbintree.BinaryTreeNode$Right$
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> actorbintree.BinaryTreeSet
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> actorbintree.BinaryTreeSet$
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> actorbintree.BinaryTreeSet$$anonfun$1
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> actorbintree.BinaryTreeSet$$anonfun$garbageCollecting$1
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> actorbintree.BinaryTreeSet$$anonfun$running$1
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> actorbintree.BinaryTreeSet$Contains
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> actorbintree.BinaryTreeSet$Contains$
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> actorbintree.BinaryTreeSet$ContainsResult
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> actorbintree.BinaryTreeSet$ContainsResult$
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> actorbintree.BinaryTreeSet$GC$
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> actorbintree.BinaryTreeSet$Insert
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> actorbintree.BinaryTreeSet$Insert$
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> actorbintree.BinaryTreeSet$Operation
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> actorbintree.BinaryTreeSet$OperationFinished
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> actorbintree.BinaryTreeSet$OperationFinished$
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> actorbintree.BinaryTreeSet$OperationReply
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> actorbintree.BinaryTreeSet$Remove
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> actorbintree.BinaryTreeSet$Remove$
+C:\Matyi\Reactive\actorbintree\src\main\scala\common\package.scala -> common.package
+C:\Matyi\Reactive\actorbintree\src\main\scala\common\package.scala -> common.package$
+C:\Matyi\Reactive\actorbintree\src\main\scala\common\package.scala -> common.package$$anonfun$subFile$1
+used names:
+162 items
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> !
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> &&
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> +
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> ++
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> -
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> ->
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> :+
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> <init>
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> ==
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> >
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> A1
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> AbstractFunction1
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> AbstractFunction2
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> AbstractFunction3
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> Actor
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> ActorRef
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> AnyRef
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> B1
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> BinaryTreeNode
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> BinaryTreeSet
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> Boolean
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> Contains
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> ContainsResult
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> CopyFinished
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> CopyTo
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> Function1
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> GC
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> Insert
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> Int
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> Left
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> LoggingReceive
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> Map
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> None
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> Operation
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> OperationFinished
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> OperationReply
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> PoisonPill
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> Position
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> Predef
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> Product
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> Props
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> Queue
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> Receive
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> Remove
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> Right
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> ScalaRunTime
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> Serializable
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> Set
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> Statics
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> StringContext
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> Unit
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> _hashCode
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> _toString
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> actor
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> actorOf
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> actorRef2Scala
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> actorbintree
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> akka
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> anyHash
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> apply
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> asInstanceOf
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> become
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> canBuildFrom
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> collection
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> contains
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> context
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> copying
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> createRoot
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> elem
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> empty
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> eq
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> event
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> expected
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> finalizeHash
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> garbageCollecting
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> get
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> head
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> id
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> immutable
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> initiallyRemoved
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> insert
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> insertConfirmed
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> isEmpty
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> isInstanceOf
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> mix
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> newElem
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> newLeaf
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> newRoot
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> next
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> nextOp
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> normal
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> package
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> parent
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> pendingQueue
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> pendingQueue_=
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> pos
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> props
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> ref
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> remove
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> removed
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> removed_=
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> requester
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> result
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> root
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> root_=
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> runNext
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> running
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> runtime
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> s
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> scala
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> self
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> sendCopyTo
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> sender
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> subtrees
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> subtrees_=
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> tail
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> toFind
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> toRemove
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> toString
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> treeNode
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> typedProductIterator
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> unary_!
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> unchecked
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> underGC
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> underGC_=
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> waitingFor
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> x
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> ||
+C:\Matyi\Reactive\actorbintree\src\main\scala\common\package.scala -> ::
+C:\Matyi\Reactive\actorbintree\src\main\scala\common\package.scala -> <init>
+C:\Matyi\Reactive\actorbintree\src\main\scala\common\package.scala -> <repeated>
+C:\Matyi\Reactive\actorbintree\src\main\scala\common\package.scala -> Any
+C:\Matyi\Reactive\actorbintree\src\main\scala\common\package.scala -> AnyRef
+C:\Matyi\Reactive\actorbintree\src\main\scala\common\package.scala -> File
+C:\Matyi\Reactive\actorbintree\src\main\scala\common\package.scala -> FileInputStream
+C:\Matyi\Reactive\actorbintree\src\main\scala\common\package.scala -> InputStream
+C:\Matyi\Reactive\actorbintree\src\main\scala\common\package.scala -> List
+C:\Matyi\Reactive\actorbintree\src\main\scala\common\package.scala -> None
+C:\Matyi\Reactive\actorbintree\src\main\scala\common\package.scala -> Nothing
+C:\Matyi\Reactive\actorbintree\src\main\scala\common\package.scala -> Option
+C:\Matyi\Reactive\actorbintree\src\main\scala\common\package.scala -> Predef
+C:\Matyi\Reactive\actorbintree\src\main\scala\common\package.scala -> String
+C:\Matyi\Reactive\actorbintree\src\main\scala\common\package.scala -> _root_
+C:\Matyi\Reactive\actorbintree\src\main\scala\common\package.scala -> child
+C:\Matyi\Reactive\actorbintree\src\main\scala\common\package.scala -> children
+C:\Matyi\Reactive\actorbintree\src\main\scala\common\package.scala -> classesDir
+C:\Matyi\Reactive\actorbintree\src\main\scala\common\package.scala -> common
+C:\Matyi\Reactive\actorbintree\src\main\scala\common\package.scala -> exists
+C:\Matyi\Reactive\actorbintree\src\main\scala\common\package.scala -> file
+C:\Matyi\Reactive\actorbintree\src\main\scala\common\package.scala -> foldLeft
+C:\Matyi\Reactive\actorbintree\src\main\scala\common\package.scala -> getClass
+C:\Matyi\Reactive\actorbintree\src\main\scala\common\package.scala -> getParentFile
+C:\Matyi\Reactive\actorbintree\src\main\scala\common\package.scala -> getResource
+C:\Matyi\Reactive\actorbintree\src\main\scala\common\package.scala -> io
+C:\Matyi\Reactive\actorbintree\src\main\scala\common\package.scala -> java
+C:\Matyi\Reactive\actorbintree\src\main\scala\common\package.scala -> package
+C:\Matyi\Reactive\actorbintree\src\main\scala\common\package.scala -> projectDir
+C:\Matyi\Reactive\actorbintree\src\main\scala\common\package.scala -> resourceFile
+C:\Matyi\Reactive\actorbintree\src\main\scala\common\package.scala -> resourcePath
+C:\Matyi\Reactive\actorbintree\src\main\scala\common\package.scala -> scala
+C:\Matyi\Reactive\actorbintree\src\main\scala\common\package.scala -> subFile
+C:\Matyi\Reactive\actorbintree\src\main\scala\common\package.scala -> toURI
+product stamps:
+31 items
+C:\Matyi\Reactive\actorbintree\target\scala-2.11\classes\actorbintree\BinaryTreeNode$$anonfun$2.class -> lastModified(1431950675683)
+C:\Matyi\Reactive\actorbintree\target\scala-2.11\classes\actorbintree\BinaryTreeNode$$anonfun$copying$1.class -> lastModified(1431950675690)
+C:\Matyi\Reactive\actorbintree\target\scala-2.11\classes\actorbintree\BinaryTreeNode$.class -> lastModified(1431950675588)
+C:\Matyi\Reactive\actorbintree\target\scala-2.11\classes\actorbintree\BinaryTreeNode$CopyFinished$.class -> lastModified(1431950675694)
+C:\Matyi\Reactive\actorbintree\target\scala-2.11\classes\actorbintree\BinaryTreeNode$CopyTo$.class -> lastModified(1431950675699)
+C:\Matyi\Reactive\actorbintree\target\scala-2.11\classes\actorbintree\BinaryTreeNode$CopyTo.class -> lastModified(1431950675715)
+C:\Matyi\Reactive\actorbintree\target\scala-2.11\classes\actorbintree\BinaryTreeNode$Left$.class -> lastModified(1431950675718)
+C:\Matyi\Reactive\actorbintree\target\scala-2.11\classes\actorbintree\BinaryTreeNode$Position.class -> lastModified(1431950675719)
+C:\Matyi\Reactive\actorbintree\target\scala-2.11\classes\actorbintree\BinaryTreeNode$Right$.class -> lastModified(1431950675723)
+C:\Matyi\Reactive\actorbintree\target\scala-2.11\classes\actorbintree\BinaryTreeNode.class -> lastModified(1431950675668)
+C:\Matyi\Reactive\actorbintree\target\scala-2.11\classes\actorbintree\BinaryTreeSet$$anonfun$1.class -> lastModified(1431950675743)
+C:\Matyi\Reactive\actorbintree\target\scala-2.11\classes\actorbintree\BinaryTreeSet$$anonfun$garbageCollecting$1.class -> lastModified(1431950675747)
+C:\Matyi\Reactive\actorbintree\target\scala-2.11\classes\actorbintree\BinaryTreeSet$$anonfun$running$1.class -> lastModified(1431950675752)
+C:\Matyi\Reactive\actorbintree\target\scala-2.11\classes\actorbintree\BinaryTreeSet$.class -> lastModified(1431950675725)
+C:\Matyi\Reactive\actorbintree\target\scala-2.11\classes\actorbintree\BinaryTreeSet$Contains$.class -> lastModified(1431950675756)
+C:\Matyi\Reactive\actorbintree\target\scala-2.11\classes\actorbintree\BinaryTreeSet$Contains.class -> lastModified(1431950675764)
+C:\Matyi\Reactive\actorbintree\target\scala-2.11\classes\actorbintree\BinaryTreeSet$ContainsResult$.class -> lastModified(1431950675774)
+C:\Matyi\Reactive\actorbintree\target\scala-2.11\classes\actorbintree\BinaryTreeSet$ContainsResult.class -> lastModified(1431950675770)
+C:\Matyi\Reactive\actorbintree\target\scala-2.11\classes\actorbintree\BinaryTreeSet$GC$.class -> lastModified(1431950675778)
+C:\Matyi\Reactive\actorbintree\target\scala-2.11\classes\actorbintree\BinaryTreeSet$Insert$.class -> lastModified(1431950675782)
+C:\Matyi\Reactive\actorbintree\target\scala-2.11\classes\actorbintree\BinaryTreeSet$Insert.class -> lastModified(1431950675788)
+C:\Matyi\Reactive\actorbintree\target\scala-2.11\classes\actorbintree\BinaryTreeSet$Operation.class -> lastModified(1431950675789)
+C:\Matyi\Reactive\actorbintree\target\scala-2.11\classes\actorbintree\BinaryTreeSet$OperationFinished$.class -> lastModified(1431950675792)
+C:\Matyi\Reactive\actorbintree\target\scala-2.11\classes\actorbintree\BinaryTreeSet$OperationFinished.class -> lastModified(1431950675797)
+C:\Matyi\Reactive\actorbintree\target\scala-2.11\classes\actorbintree\BinaryTreeSet$OperationReply.class -> lastModified(1431950675798)
+C:\Matyi\Reactive\actorbintree\target\scala-2.11\classes\actorbintree\BinaryTreeSet$Remove$.class -> lastModified(1431950675808)
+C:\Matyi\Reactive\actorbintree\target\scala-2.11\classes\actorbintree\BinaryTreeSet$Remove.class -> lastModified(1431950675805)
+C:\Matyi\Reactive\actorbintree\target\scala-2.11\classes\actorbintree\BinaryTreeSet.class -> lastModified(1431950675738)
+C:\Matyi\Reactive\actorbintree\target\scala-2.11\classes\common\package$$anonfun$subFile$1.class -> lastModified(1431676661944)
+C:\Matyi\Reactive\actorbintree\target\scala-2.11\classes\common\package$.class -> lastModified(1431676661941)
+C:\Matyi\Reactive\actorbintree\target\scala-2.11\classes\common\package.class -> lastModified(1431676661935)
+source stamps:
+2 items
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> hash(688262591a9d35fe165154311bc6c9778f6cf21d)
+C:\Matyi\Reactive\actorbintree\src\main\scala\common\package.scala -> hash(959d2de80692406118ffed481da44534a9da824a)
+binary stamps:
+3 items
+C:\Program Files\Java\jre1.8.0_45\lib\rt.jar -> lastModified(1429601377729)
+C:\Users\Matyas_Barakonyi1@epam.com\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.3.9.jar -> lastModified(1421734693000)
+C:\Users\Matyas_Barakonyi1@epam.com\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.5.jar -> lastModified(1420590731000)
+class names:
+3 items
+C:\Program Files\Java\jre1.8.0_45\lib\rt.jar -> java.lang.Object
+C:\Users\Matyas_Barakonyi1@epam.com\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.3.9.jar -> akka.actor.Actor
+C:\Users\Matyas_Barakonyi1@epam.com\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.5.jar -> scala.Product
+internal apis:
+2 items
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHB4BaTXAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAACc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwpAGHaXQABHNlbGZzcQB+AAu21UGVdAAHY29udGV4dHVxAH4ACQAAAFZzcQB+AAtdU/4FdAAGbm90aWZ5c3EAfgALzGnTwHQAB3VuYXBwbHlzcQB+AAtTEfsSdAAHY3VycmllZHNxAH4ACwH3N3t0AAdSZWNlaXZlc3EAfgALDGXF7XQACmNyZWF0ZVJvb3RzcQB+AAs9aBRRdAANQmluYXJ5VHJlZVNldHNxAH4AC1PKLjl0AAdjb3B5aW5nc3EAfgALrJJqEHQABHdhaXRzcQB+AAvwdcnfdAAOY29weSRkZWZhdWx0JDJzcQB+AAvQb1JSdAANJGFzSW5zdGFuY2VPZnNxAH4AC3jZ5Ix0AAdjb21wb3Nlc3EAfgAL28FIQnQACHN1YnRyZWVzc3EAfgALuQLwQ3QABmluc2VydHNxAH4AC0c4ANZ0AARyb290c3EAfgALAZ81P3QADHByb2R1Y3RBcml0eXNxAH4AC9ES3ih0AAZlcXVhbHNzcQB+AAuvDMXNdAAHcnVubmluZ3NxAH4AC9NePfd0AAZub3JtYWxzcQB+AAvUHjmvdAAIUG9zaXRpb25zcQB+AAtF1VKBdAAMYXNJbnN0YW5jZU9mc3EAfgALUEGuNnQABnJlc3VsdHNxAH4AC5RkTHF0AAxzeW5jaHJvbml6ZWRzcQB+AAsFddN2dAAOQ29udGFpbnNSZXN1bHRzcQB+AAtH/nKGdAAJcmVxdWVzdGVyc3EAfgALCAHghXQABlJlbW92ZXNxAH4ACzMhQDV0AA0kaXNJbnN0YW5jZU9mc3EAfgALb/5QgHQAB2FuZFRoZW5zcQB+AAvm0h2fdAAHcmVjZWl2ZXNxAH4AC6sIH3p0AApwcmVSZXN0YXJ0c3EAfgALOzOXenQABnR1cGxlZHNxAH4AC/NF4Tx0AA1hcm91bmRSZWNlaXZlc3EAfgALrEcKDXQAAkdDc3EAfgALPTBiOnQACnNlbmRDb3B5VG9zcQB+AAubysnAdAAHcmVtb3ZlZHNxAH4AC/fVnVZ0AAxwZW5kaW5nUXVldWVzcQB+AAuTB/oldAAIY2FuRXF1YWxzcQB+AAv9bxIPdAALcG9zdFJlc3RhcnRzcQB+AAuDhyY8dAAIcG9zdFN0b3BzcQB+AAu1qoRIdAANcHJvZHVjdFByZWZpeHNxAH4AC+OqCSZ0AAlub3RpZnlBbGxzcQB+AAvX50zxdAALcmVhZFJlc29sdmVzcQB+AAthvQRhdAAOT3BlcmF0aW9uUmVwbHlzcQB+AAsvLx4ldAARYXJvdW5kUG9zdFJlc3RhcnRzcQB+AAvlidvbdAAMaXNJbnN0YW5jZU9mc3EAfgALn+qB1nQACU9wZXJhdGlvbnNxAH4AC9V5wVZ0ABBhcm91bmRQcmVSZXN0YXJ0c3EAfgALTbYznHQADmFyb3VuZFBvc3RTdG9wc3EAfgALxvGsQHQADkJpbmFyeVRyZWVOb2Rlc3EAfgALCCGU63QABjxpbml0PnNxAH4AC+95rt10AAJpZHNxAH4AC8eFZu90AAhwcmVTdGFydHNxAH4AC0M/Fsx0AAl1bmhhbmRsZWRzcQB+AAv3wviodAAGcmVtb3Zlc3EAfgALu17RqnQABWFwcGx5c3EAfgALT0qLfHQAAj09c3EAfgALp6M6O3QABExlZnRzcQB+AAuVXHSVdAAFY2xvbmVzcQB+AAshNTNpdAAGQ29weVRvc3EAfgALO6mOiXQAEU9wZXJhdGlvbkZpbmlzaGVkc3EAfgALenT2lHQADmNvcHkkZGVmYXVsdCQzc3EAfgAL0ZJ7NnQABGNvcHlzcQB+AAvnMQzmdAAGc2VuZGVyc3EAfgALsa4LHXQACENvbnRhaW5zc3EAfgALS1W62XQACHRvU3RyaW5nc3EAfgALIY+MGnQAAiE9c3EAfgALQArtt3QACGdldENsYXNzc3EAfgALfobYbnQAEWdhcmJhZ2VDb2xsZWN0aW5nc3EAfgALf+JKwnQADmNvcHkkZGVmYXVsdCQxc3EAfgALh1m8r3QABXByb3Bzc3EAfgALzt1kXXQACHRyZWVOb2Rlc3EAfgALPfJwRHQABkluc2VydHNxAH4AC9xum8d0AAhjb250YWluc3NxAH4AC21bknR0AAJuZXNxAH4AC9etOIF0AAxDb3B5RmluaXNoZWRzcQB+AAssb3/mdAAFUmlnaHRzcQB+AAsvPwZNdAAHdW5kZXJHQ3NxAH4AC/gjHgB0AARlbGVtc3EAfgALEdURynQAEnN1cGVydmlzb3JTdHJhdGVneXNxAH4ACwM2Kf50AAJlcXNxAH4ACympNr90AA9wcm9kdWN0SXRlcmF0b3JzcQB+AAtLclhBdAAHcnVuTmV4dHNxAH4AC/NknEx0AAIjI3NxAH4AC+qqvrx0AAhmaW5hbGl6ZXNxAH4ACwoqhKV0AA5wcm9kdWN0RWxlbWVudHNxAH4ACwNF5q50AAhoYXNoQ29kZXNxAH4AC4ZwUuR0AA5hcm91bmRQcmVTdGFydHNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAARzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AMd4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgAMeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc8cREyFpnNwkAgABQgAFZmxhZ3N4cAB0ABphY3RvcmJpbnRyZWUuQmluYXJ5VHJlZVNldHVyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQABk1vZHVsZXVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgATeHNidGkuU2FmZUxhenkkSW1wbFACLpOXl0A/AgADWgAIYml0bWFwJDBMAAJfdHQAEkxqYXZhL2xhbmcvT2JqZWN0O0wABGV2YWx0ABFMc2NhbGEvRnVuY3Rpb24wO3hyABZ4c2J0aS5hcGkuQWJzdHJhY3RMYXp503e1AV+756ACAAB4cABwc3IAIHhzYnRpLlNhZmVMYXp5JCRhbm9uZnVuJHN0cmljdCQxAAAAAAAAAAACAAFMAAd2YWx1ZSQxcQB+AOB4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AN8AcHNxAH4A5HNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgDHTAAJaW5oZXJpdGVkcQB+AMdMAAdwYXJlbnRzcQB+AMd4cQB+AOhzcQB+AN8AcHNxAH4A5HVxAH4AwgAAAABzcQB+AN8AcHNxAH4A5HVxAH4AwgAAAABzcQB+AN8AcHNxAH4A5HVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAACc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgAMTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4A53QABk9iamVjdHNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4A53NyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAA3NyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AAx4cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAEamF2YXNxAH4BBHQABGxhbmdzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4BBXNxAH4A+HQAA0FueXNxAH4A/HNxAH4A/3VxAH4BAgAAAAJzcQB+AQR0AAVzY2FsYXEAfgELc3EAfgDEcQB+ANF1cQB+ANIAAAAAc3EAfgDUAHQAGmFjdG9yYmludHJlZS5CaW5hcnlUcmVlU2V0dXEAfgDXAAAAAH5xAH4A2XQACENsYXNzRGVmdXEAfgDdAAAAAHNxAH4A3wBwc3EAfgDkcQB+AOlzcQB+AN8AcHNxAH4A5HNxAH4A7HNxAH4A3wBwc3EAfgDkdXEAfgDCAAAAAHNxAH4A3wBwc3EAfgDkdXEAfgDCAAAAAHNxAH4A3wBwc3EAfgDkdXEAfgD2AAAAA3NxAH4A+HQABUFjdG9yc3EAfgD8c3EAfgD/dXEAfgECAAAAA3NxAH4BBHQABGFra2FzcQB+AQR0AAVhY3RvcnEAfgELc3EAfgD4cQB+APtzcQB+APxzcQB+AP91cQB+AQIAAAADc3EAfgEEcQB+AQdzcQB+AQRxAH4BCXEAfgELc3EAfgD4cQB+AQ1zcQB+APxzcQB+AP91cQB+AQIAAAACc3EAfgEEcQB+ARJxAH4BC3NxAH4AxHEAfgDRdXEAfgDSAAAAAHNxAH4A1AB0ABthY3RvcmJpbnRyZWUuQmluYXJ5VHJlZU5vZGV1cQB+ANcAAAAAcQB+ANt1cQB+AN0AAAAAc3EAfgDfAHBzcQB+AORxAH4A6XNxAH4A3wBwc3EAfgDkc3EAfgDsc3EAfgDfAHBzcQB+AOR1cQB+AMIAAAAAc3EAfgDfAHBzcQB+AOR1cQB+AMIAAAAAc3EAfgDfAHBzcQB+AOR1cQB+APYAAAACc3EAfgD4cQB+APtzcQB+APxzcQB+AP91cQB+AQIAAAADc3EAfgEEcQB+AQdzcQB+AQRxAH4BCXEAfgELc3EAfgD4cQB+AQ1zcQB+APxzcQB+AP91cQB+AQIAAAACc3EAfgEEcQB+ARJxAH4BC3NxAH4AxHEAfgDRdXEAfgDSAAAAAHNxAH4A1AB0ABthY3RvcmJpbnRyZWUuQmluYXJ5VHJlZU5vZGV1cQB+ANcAAAAAcQB+ARh1cQB+AN0AAAAAc3EAfgDfAHBzcQB+AORxAH4A6XNxAH4A3wBwc3EAfgDkc3EAfgDsc3EAfgDfAHBzcQB+AOR1cQB+AMIAAAAAc3EAfgDfAHBzcQB+AOR1cQB+AMIAAAAAc3EAfgDfAHBzcQB+AOR1cQB+APYAAAADc3EAfgD4dAAFQWN0b3JzcQB+APxzcQB+AP91cQB+AQIAAAADc3EAfgEEdAAEYWtrYXNxAH4BBHQABWFjdG9ycQB+AQtzcQB+APhxAH4A+3NxAH4A/HNxAH4A/3VxAH4BAgAAAANzcQB+AQRxAH4BB3NxAH4BBHEAfgEJcQB+AQtzcQB+APhxAH4BDXNxAH4A/HNxAH4A/3VxAH4BAgAAAAJzcQB+AQRxAH4BEnEAfgELdXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAAFzcgAReHNidGkuYXBpLlBhY2thZ2V+WY/2rs45WAIAAUwABG5hbWVxAH4ADHhwdAAMYWN0b3JiaW50cmVlc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFNZukNw3VyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADEwAD3NvdXJjZURpcmVjdG9yeXEAfgAMeHB0ADhDOlxNYXR5aVxSZWFjdGl2ZVxhY3RvcmJpbnRyZWVcdGFyZ2V0XHNjYWxhLTIuMTFcY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFGiCYlkanTX+FlFUMRvGyXePbPId
+C:\Matyi\Reactive\actorbintree\src\main\scala\common\package.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHCH2I3RAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAGHNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cMm+MXx0AAZub3RpZnlzcQB+AAyE/M00dAAHcGFja2FnZXNxAH4ADCYSurZ0AAR3YWl0c3EAfgAM8efqjHQADSRhc0luc3RhbmNlT2ZzcQB+AAzNivwPdAAGZXF1YWxzc3EAfgAM8WxUaXQADGFzSW5zdGFuY2VPZnNxAH4ADM7IhUp0AAxzeW5jaHJvbml6ZWRzcQB+AAxYw5T1dAANJGlzSW5zdGFuY2VPZnNxAH4ADKo9iEt0ABdyZXNvdXJjZUFzU3RyZWFtRnJvbVNyY3NxAH4ADIN8vFN0AAlub3RpZnlBbGxzcQB+AAwmJKnKdAAMaXNJbnN0YW5jZU9mc3EAfgAMacTab3QAAz8/P3NxAH4ADJp6YJF0AAI9PXNxAH4ADPKN8FN0AAVjbG9uZXNxAH4ADGdM1iN0AAdzdWJGaWxlc3EAfgAMJCvh6HQACHRvU3RyaW5nc3EAfgAMP7rEanQAAiE9c3EAfgAMCJe6qnQACGdldENsYXNzc3EAfgAMCCpDk3QAAm5lc3EAfgAMGnQJi3QAAmVxc3EAfgAMkxI1z3QAAiMjc3EAfgAMjXTkU3QACGZpbmFsaXplc3EAfgAMVNQ/iHQACGhhc2hDb2Rlc3EAfgAMe21E9HQAAyoqKnNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AEd4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc8cREyFpnNwkAgABQgAFZmxhZ3N4cAB0AA5jb21tb24ucGFja2FnZXVyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQABk1vZHVsZXVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgATeHNidGkuU2FmZUxhenkkSW1wbFACLpOXl0A/AgADWgAIYml0bWFwJDBMAAJfdHQAEkxqYXZhL2xhbmcvT2JqZWN0O0wABGV2YWx0ABFMc2NhbGEvRnVuY3Rpb24wO3hyABZ4c2J0aS5hcGkuQWJzdHJhY3RMYXp503e1AV+756ACAAB4cABwc3IAIHhzYnRpLlNhZmVMYXp5JCRhbm9uZnVuJHN0cmljdCQxAAAAAAAAAAACAAFMAAd2YWx1ZSQxcQB+AGB4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AF8Bc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AEdMAAlpbmhlcml0ZWRxAH4AR0wAB3BhcmVudHNxAH4AR3hxAH4AaHNxAH4AXwF1cQB+AEIAAAAAcHNxAH4AXwF1cQB+AEIAAAAAcHNxAH4AXwF1cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAAAnNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AGd0AAZPYmplY3RzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AGdzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAANzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABGphdmFzcQB+AIB0AARsYW5nc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AIFzcQB+AHR0AANBbnlzcQB+AHhzcQB+AHt1cQB+AH4AAAACc3EAfgCAdAAFc2NhbGFxAH4Ah3BwdXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAAFzcgAReHNidGkuYXBpLlBhY2thZ2V+WY/2rs45WAIAAUwABG5hbWVxAH4ADXhwdAAGY29tbW9uc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFNVpQYknVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0ADhDOlxNYXR5aVxSZWFjdGl2ZVxhY3RvcmJpbnRyZWVcdGFyZ2V0XHNjYWxhLTIuMTFcY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFJWdLegGkkBhGP/tSB2kRTSp2oJK
+external apis:
+0 items
+source infos:
+2 items
+C:\Matyi\Reactive\actorbintree\src\main\scala\actorbintree\BinaryTreeSet.scala -> 
+AAAAAAAAAAA=
+C:\Matyi\Reactive\actorbintree\src\main\scala\common\package.scala -> 
+AAAAAAAAAAA=
+compilations:
+2 items
+0 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABTVaUGJJ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAOEM6XE1hdHlpXFJlYWN0aXZlXGFjdG9yYmludHJlZVx0YXJnZXRcc2NhbGEtMi4xMVxjbGFzc2VzdAABLw==
+1 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABTWbpDcN1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAOEM6XE1hdHlpXFJlYWN0aXZlXGFjdG9yYmludHJlZVx0YXJnZXRcc2NhbGEtMi4xMVxjbGFzc2VzdAABLw==

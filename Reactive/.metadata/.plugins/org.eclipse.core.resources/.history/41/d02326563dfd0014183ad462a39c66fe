@@ -1,0 +1,266 @@
+/**
+ * Copyright (C) 2009-2013 Typesafe Inc. <http://www.typesafe.com>
+ */
+package actorbintree
+
+import akka.actor._
+import scala.collection.immutable.Queue
+import akka.event.LoggingReceive
+
+object BinaryTreeSet {
+
+  trait Operation {
+    def requester: ActorRef
+    def id: Int
+    def elem: Int
+  }
+
+  trait OperationReply {
+    def id: Int
+  }
+
+  /**
+   * Request with identifier `id` to insert an element `elem` into the tree.
+   * The actor at reference `requester` should be notified when this operation
+   * is completed.
+   */
+  case class Insert(requester: ActorRef, id: Int, elem: Int) extends Operation
+
+  /**
+   * Request with identifier `id` to check whether an element `elem` is present
+   * in the tree. The actor at reference `requester` should be notified when
+   * this operation is completed.
+   */
+  case class Contains(requester: ActorRef, id: Int, elem: Int) extends Operation
+
+  /**
+   * Request with identifier `id` to remove the element `elem` from the tree.
+   * The actor at reference `requester` should be notified when this operation
+   * is completed.
+   */
+  case class Remove(requester: ActorRef, id: Int, elem: Int) extends Operation
+
+  /** Request to perform garbage collection*/
+  case object GC
+
+  /**
+   * Holds the answer to the Contains request with identifier `id`.
+   * `result` is true if and only if the element is present in the tree.
+   */
+  case class ContainsResult(id: Int, result: Boolean) extends OperationReply
+
+  /** Message to signal successful completion of an insert or remove operation. */
+  case class OperationFinished(id: Int) extends OperationReply
+
+}
+
+class BinaryTreeSet extends Actor {
+  import BinaryTreeSet._
+  import BinaryTreeNode._
+
+  def createRoot: ActorRef = context.actorOf(BinaryTreeNode.props(0, initiallyRemoved = true))
+
+  var root = createRoot
+
+  // optional
+  var pendingQueue = Queue.empty[Operation]
+  var isGcWaiting = false
+
+  // optional
+  def receive = normal
+
+  // optional
+  /** Accepts `Operation` and `GC` messages. */
+  val normal: Receive = LoggingReceive {
+    case message: Operation => {
+      pendingQueue = pendingQueue :+ message
+      context.become(runNext)
+    }
+    case GC => context.become(runGc)
+  }
+
+  def runGc = {
+    val newRoot = createRoot
+    root ! CopyTo(newRoot)
+    garbageCollecting(newRoot)
+  }
+
+  def running: Receive = LoggingReceive {
+    case o: Operation => context.become(enqueueOperation(o))
+    case r: OperationReply => {
+      val op = pendingQueue.head
+      op.requester ! r
+      pendingQueue = pendingQueue.tail
+      context.become(runNext)
+    }
+    case GC => isGcWaiting = true
+    case message =>
+  }
+
+  def enqueueOperation(operation: Operation): Receive = LoggingReceive {
+    pendingQueue = pendingQueue :+ operation
+    running
+  }
+
+  def runNext: Receive = LoggingReceive {
+    if (isGcWaiting) runGc
+    else {
+//      reqNo += 1
+      if (pendingQueue.isEmpty)
+        normal
+      else {
+        val nextOp = pendingQueue.head match {
+          case o: Insert => o.copy(requester = context.self)
+          case o: Remove => o.copy(requester = context.self)
+          case o: Contains => o.copy(requester = context.self)
+        }
+        root ! nextOp
+        running
+      }
+    }
+  }
+
+  // optional
+  /**
+   * Handles messages while garbage collection is performed.
+   * `newRoot` is the root of the new binary tree where we want to copy
+   * all non-removed elements into.
+   */
+  def garbageCollecting(newRoot: ActorRef): Receive = LoggingReceive {
+    case o: Operation => pendingQueue = pendingQueue :+ o
+    case CopyFinished => {
+      root ! PoisonPill // root as actor is stopped
+      root = newRoot // set up root as the garbage collected new root
+      isGcWaiting = false 
+      context.become(runNext)
+    }
+    case GC =>
+  }
+
+}
+
+object BinaryTreeNode {
+  trait Position
+
+  case object Left extends Position
+  case object Right extends Position
+
+  case class CopyTo(treeNode: ActorRef)
+  case object CopyFinished
+
+  def props(elem: Int, initiallyRemoved: Boolean) = Props(classOf[BinaryTreeNode], elem, initiallyRemoved)
+}
+
+class BinaryTreeNode(val elem: Int, initiallyRemoved: Boolean) extends Actor {
+  import BinaryTreeNode._
+  import BinaryTreeSet._
+
+  var subtrees = Map[Position, ActorRef]()
+  var removed = initiallyRemoved
+
+  // optional
+  def receive = normal
+
+  val normal: Receive = LoggingReceive {
+    case Insert(requester, id, newElem) =>
+      if (newElem == elem) {
+        if (removed) {
+          removed = false
+        }
+        requester ! OperationFinished(id)
+      } else {
+        insert(requester, id, newElem, if (newElem > elem) Right else Left)
+      }
+    case Remove(requester, id, toRemove) =>
+      if (toRemove == elem) {
+        removed = true
+        requester ! OperationFinished(id)
+      } else {
+        remove(requester, id, toRemove, if (toRemove > elem) Right else Left)
+      }
+    case Contains(requester, id, toFind) =>
+      if (toFind == elem) {
+        if (removed) {
+          requester ! ContainsResult(id, false)
+        } else {
+          requester ! ContainsResult(id, true)
+        }
+      } else {
+        contains(requester, id, toFind, if (toFind > elem) Right else Left)
+      }
+    case CopyTo(newRoot) =>
+      //      println("received copyTpo")
+      val expected = sendCopyTo(newRoot, Left) ++ sendCopyTo(newRoot, Right)
+
+      if (expected.isEmpty && removed) {
+        sender ! CopyFinished
+      } else {
+        if (!removed) {
+          newRoot ! Insert(context.self, -1, elem)
+        }
+        context.become(copying(expected, false))
+      }
+
+  }
+
+  private def sendCopyTo(newRoot: ActorRef, pos: Position): Set[ActorRef] = {
+    subtrees.get(pos) match {
+      case Some(ref) =>
+        ref ! CopyTo(newRoot)
+        Set(ref)
+      case None => Set.empty
+    }
+  }
+
+  private def insert(requester: ActorRef, id: Int, elem: Int, pos: Position) {
+    subtrees.get(pos) match {
+      case None =>
+        val newLeaf = context.actorOf(BinaryTreeNode.props(elem, false), s"$elem")
+        subtrees = subtrees + (pos -> newLeaf)
+        newLeaf ! Insert(requester, id, elem)
+      //        requester ! OperationFinished(id)
+      case Some(ref) => ref ! Insert(requester, id, elem)
+    }
+  }
+
+  private def remove(requester: ActorRef, id: Int, elem: Int, pos: Position) {
+    subtrees.get(pos) match {
+      case None =>
+        requester ! OperationFinished(id)
+      case Some(ref) => ref ! Remove(requester, id, elem)
+    }
+  }
+
+  private def contains(requester: ActorRef, id: Int, elem: Int, pos: Position) {
+    subtrees.get(pos) match {
+      case None =>
+        requester ! ContainsResult(id, false)
+      case Some(ref) => ref ! Contains(requester, id, elem)
+    }
+  }
+
+  // optional
+  /**
+   * `expected` is the set of ActorRefs whose replies we are waiting for,
+   * `insertConfirmed` tracks whether the copy of this node to the new tree has been confirmed.
+   */
+  def copying(expected: Set[ActorRef], insertConfirmed: Boolean): Receive = LoggingReceive {
+    case CopyFinished =>
+      val waitingFor = expected - sender
+      if (waitingFor.isEmpty) {
+        context.parent ! CopyFinished
+        context.become(normal)
+      } else {
+        context.become(copying(waitingFor, insertConfirmed))
+      }
+    case OperationFinished(id) =>
+      if (expected.isEmpty) {
+        context.parent ! CopyFinished
+        context.become(normal)
+      } else {
+        context.become(copying(expected, true))
+      }
+
+  }
+
+}

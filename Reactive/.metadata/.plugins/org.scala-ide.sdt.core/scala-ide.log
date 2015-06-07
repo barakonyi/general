@@ -3835,3 +3835,13 @@ scala.reflect.internal.FatalError: ThisType(method top) for sym which is not a c
 2015-05-19 13:48:02,643 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
 2015-05-19 13:48:02,644 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
 2015-05-19 13:48:02,644 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-05-27 14:43:41,058  WARN [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Preference scala.compiler.sourceLevel was uninitialized for actorbintree, setting default to 2.11.
+2015-05-27 14:43:41,059  WARN [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Preference scala.compiler.installation was uninitialized for actorbintree, setting default to 2.11.
+2015-05-27 14:44:10,863  WARN [ModalContext] - ScalaProject - Project kvstore has platform default sourceLevel.
+2015-05-27 14:44:10,863  WARN [ModalContext] - ScalaProject - Project kvstore runs on platform default installation.
+2015-05-27 14:44:10,863  WARN [ModalContext] - ScalaProject - Project kvstore has platform default sourceLevel.
+2015-05-27 14:44:10,863  WARN [ModalContext] - ScalaProject - Project kvstore runs on platform default installation.
+2015-05-27 14:45:03,393 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-05-27 14:45:03,393 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-05-27 14:45:03,393 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-05-28 13:56:58,779  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ImplicitHighlightingPresenter - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
